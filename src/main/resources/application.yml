@@ -1,0 +1,12 @@
+server:
+  port: 2333
+spring:
+  application:
+    name: freemarker-test
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/xc_cms
+  freemarker:
+    cache: false #close cache
+    settings:
+      template_update_delay: 0 #update immediately
